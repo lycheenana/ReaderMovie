@@ -1,0 +1,148 @@
+@import "../stars/stars-template.wxss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.head-background{
+  width: 100%;
+  height: 320rpx;
+  overflow:hidden;
+}
+.head-img {
+  width: 100%;
+  height: 320rpx;
+  -webkit-filter: blur(20px); 
+}
+
+.head-img-hover {
+  width: 100%;
+  height: 320rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  font-size: 19px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 50rpx;
+  margin-left: 40rpx;
+}
+
+.sub-title {
+  font-size: 28rpx;
+  color: #fff;
+  margin-top:30rpx;
+  margin-left: 40rpx;
+}
+
+.like {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+  margin-left: 40rpx;
+}
+
+.highlight-font {
+  font-size: 22rpx;
+  color: #f21146;
+  margin-right: 10rpx;
+}
+
+.plain-font {
+  font-size: 22rpx;
+  color: #666;
+  margin-right: 10rpx;
+}
+
+.movie-img {
+  width: 175rpx;
+  height: 238rpx;
+  position: absolute;
+  top: 160rpx;
+  right: 30rpx;
+}
+
+.summary {
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+  color: #777;
+}
+
+.original-title {
+  color: #1f3463;
+  font-size: 24rpx;
+  font-weight: bold;
+  margin-bottom: 40rpx;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rpx;
+}
+
+.mark {
+  margin-right: 30rpx;
+  white-space: nowrap;
+  color: #999;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  margin-top: 45rpx;
+  background-color: #d9d9d9;
+}
+
+.synopsis {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+  margin-top: 40rpx;
+}
+.synopsis-font{
+  color:#999;
+}
+
+.summary-content {
+  margin-top: 20rpx;
+  margin-right: 40rpx;
+  line-height: 40rpx;
+  letter-spacing: 1px;
+}
+.cast{
+  display:flex;
+  flex-direction:column;
+  margin-left:40rpx;
+  margin-top:50rpx;
+}
+.cast-font{
+  color:#999;
+  margin-bottom:40rpx;
+}
+.cast-container{
+  display:inline-flex;
+  flex-direction:column;
+  width:170rpx;
+  margin-bottom:50rpx;
+  margin-right:40rpx;
+  text-align:center;
+  white-space: normal;
+}
+
+.cast-imgs{
+  white-space:nowrap;
+}
+.cast-img{
+  width:170rpx;
+  height:210rpx;
+}
+.cast-name{
+  margin:10rpx auto 0;
+}
